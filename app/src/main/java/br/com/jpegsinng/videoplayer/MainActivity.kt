@@ -1,12 +1,11 @@
 package br.com.jpegsinng.videoplayer
 
 import android.net.Uri
-import android.net.Uri.parse
 import android.os.Bundle
 import android.widget.MediaController
 import androidx.appcompat.app.AppCompatActivity
-import br.com.jpegsinng.videoplayer.databinding.ActivityMainBinding
 import androidx.core.net.toUri
+import br.com.jpegsinng.videoplayer.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
